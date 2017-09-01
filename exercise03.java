@@ -3,7 +3,8 @@ import java.util.regex.*;
 
 public class ReadFileLog {  
      public static void main(String args[]){    
-          try{    
+          try{  
+            //Asuming that file is in D drive   
             FileInputStream fin=new FileInputStream("D:\\testout.txt");    
             String inputString = null;   
             while((inputString=fin.read())!=-1){    
